@@ -28,6 +28,7 @@ $(document).ready(function() {
     }
     //take time to come up with answer
     // captcha
+    $("#quiz-section").hide();
     $("#results").show();
     $("#answer").text(answer);
     event.preventDefault();
