@@ -1,3 +1,7 @@
 /* add space between questions
 change font
 */
+
+#results {
+  display: none;
+}
