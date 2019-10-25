@@ -2,7 +2,7 @@
 change font
 */
 
-#results {
+#results, #captcha {
   display: none;
   text-align: center;
 }
@@ -33,4 +33,8 @@ body {
   background-color: white;
   color: black;
   margin-top: 30px;
+}
+
+#captcha-image {
+  width: 400px;
 }

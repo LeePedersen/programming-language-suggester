@@ -29,13 +29,14 @@ $(document).ready(function() {
     // captcha
 
     $("#quiz-section").hide();
-    $("#results").show();
-    $("#answer").text(answer);
+    $("form#captcha").show();
     event.preventDefault();
-  });
-  
-  $("form#captcha").submit(function(event) {
-    alert("it fucking worked");
-    event.preventDefault();
+
+    $("form#captcha").submit(function(event) {
+      $("form#captcha").hide();
+      $("#results").show();
+      $("#answer").text(answer);
+      event.preventDefault();
+    });
   });
 });
