@@ -12,7 +12,7 @@ Rust
 Swift
 Feel free to pick any language that interests you, either from this list or from your own research.
 
-Then create a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. Note that you are not required to research the languages extensively and you can even choose silly or irrelevant questions to determine which language would be best - for instance, people that like singing in the rain may prefer Ruby while chihuahua lovers might prefer C#.
+x Then create a Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant. Note that you are not required to research the languages extensively and you can even choose silly or irrelevant questions to determine which language would be best - for instance, people that like singing in the rain may prefer Ruby while chihuahua lovers might prefer C#.
 
 x Include a minimum of 5 survey questions.
 x Offer a minimum of 3 different language suggestions.
@@ -35,9 +35,9 @@ Project demonstrates understanding of concepts covered this week. If prompted, y
 Previous Objectives
 For reference, here are last week's objectives:
 
-Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
+- Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
 Commits are made regularly with clear messages that finish the phrase "It will…".
-Project README that includes, bare minimum:
+x Project README that includes, bare minimum:
 author name
 program name
 detailed setup instructions
