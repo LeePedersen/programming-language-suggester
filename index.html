@@ -8,52 +8,64 @@
   <title>Language Suggester</title>
 </head>
 <body>
-  <div class="container">
 
+  <div class="container">
     <h1 class="jumbotron" id="header">Programming Language Suggester</h1>
-    <h3>Take this short quiz to figure out which language you should learn first!</h3>
+  </div>
 
     <!-- if time, use checkboxes -->
-
+  <div class="container">
+    <h3>Take this short quiz to figure out which language you should learn first!</h3>
     <form id="quiz">
-      <label for="question1">What is the length, in centimeters, of your index finger?</label>
-      <input id="question1" type="text">
-      <label for="question2">What is your favorite kind of chicken?</label>
-      <select id="question2">
-        <!-- trying out values as integers, gonna see if it makes other logic easier or harder -->
-        <option value="0"></option>
-        <option value="1">Rhode Island Red</option>
-        <option value="2">Plymouth Rock</option>
-        <option value="3">Ameraucana</option>
-        <option value="4">Australorp</option>
-      </select>
-      <label for="question3">When you fly in dreams, how are you doing it?</label>
-      <select id="question3">
-        <option value="0"></option>
-        <option value="1">Walking on air</option>
-        <option value="2">Superman-style</option>
-        <option value="3">Flapping really hard</option>
-        <option value="4">Other</option>
-      </select>
-      <label for="question4">Do you eat your food:</label>
-      <select id="question4">
-        <!-- select multiple values -->
-        <option value="0"></option>
-        <option value="1">In order of least appetizing to most appetizing</option>
-        <option value="2">As fast as is humanly possible</option>
-        <option value="3">All mixed together because it's all going the same place</option>
-        <option value="4">Like a boring person</option>
-      </select>
-      <label for="question5">Do you think there's life elsewhere in the universe?</label>
-      <!-- y/n, subtext thing in box? -->
-      <input id="question5" type="text">
+      <div class="question">
+        <label for="question1">What is the length, in centimeters, of your index finger?</label>
+        <input id="question1" type="text">
+      </div>
+      <div class="question">
+        <label for="question2">What is your favorite kind of chicken?</label>
+        <select id="question2">
+          <!-- trying out values as integers, gonna see if it makes other logic easier or harder -->
+          <option value="0"></option>
+          <option value="1">Rhode Island Red</option>
+          <option value="2">Plymouth Rock</option>
+          <option value="3">Ameraucana</option>
+          <option value="4">Australorp</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="question3">When you fly in dreams, how are you doing it?</label>
+        <select id="question3">
+          <option value="0"></option>
+          <option value="1">Walking on the air</option>
+          <option value="2">Superman-style</option>
+          <option value="3">Flapping really hard</option>
+          <option value="4">Other</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="question4">Do you eat your food:</label>
+        <select id="question4">
+          <!-- select multiple values -->
+          <option value="0"></option>
+          <option value="1">In order of least appetizing to most appetizing</option>
+          <option value="2">As fast as is humanly possible</option>
+          <option value="3">All mixed together because it's all going the same place</option>
+          <option value="4">Like a boring person</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="question5">Do you think there's life elsewhere in the universe?</label>
+        <!-- y/n, subtext thing in box? -->
+        <input id="question5" type="text">
+      </div>
+
       <button type="submit" class="btn">Submit</button>
     </form>
-
-    <div id="results">
-      <p>You should learn<span id="answer"></span></p>
-    </div>
-
   </div>
+
+  <div class="container" id="results">
+    <p>You should learn<span id="answer"></span></p>
+  </div>
+
 </body>
 </html>

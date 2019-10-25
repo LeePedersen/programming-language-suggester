@@ -8,12 +8,22 @@ change font
 
 body {
   font-family: monospace;
+  background-color: black;
+  color: white;
+  /* add option to switch to normal theme */
 }
 
 #header {
   font-variant: small-caps;
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 4px 4px black;
   text-align: center;
   background-image: url("img/black.jpg");
   color: red;
+}
+
+.question {
+  font-size: 17px;
+  padding-top: 30px;
 }
