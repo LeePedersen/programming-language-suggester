@@ -6,7 +6,7 @@
 
 ## Description
 
-_This site takes in user input and then evaluates which coding language they should learn_
+_This site takes in user input and then evaluates which coding language they should learn._
 
 ## Setup/Installation Requirements
 
@@ -30,7 +30,9 @@ _jQuery_
 
 ## Further Exploration
 
-_Check out_ Google(https://www.google.com/search?q=which+programming+language+should+i+learn+first&oq=whic&aqs=chrome.0.69i59j69i57j0l4.4500j0j7&sourceid=chrome&ie=UTF-8) _for more (and definitely more accurate) resources on which programming language to learn_
+_Check out_ [Google][1] _for more (and definitely more accurate) resources on which programming language to learn._
+
+[1]: https://www.google.com/search?q=which+programming+language+should+i+learn+first&oq=whic&aqs=chrome.0.69i59j69i57j0l4.4500j0j7&sourceid=chrome&ie=UTF-8
 
 ### License
 
