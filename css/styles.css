@@ -32,6 +32,17 @@ body {
   margin-bottom: 30px;
 }
 
+#captcha {
+  background-image: url(img/bugs2.jpg);
+  background-size: contain;
+  width: 353px;
+  height: 500px;
+  margin-bottom: 30px;
+}
 #captcha-image {
-  width: 400px;
+  width: 90px;
+  position: relative;
+  top: 100px;
+  left: -131px;
+
 }
