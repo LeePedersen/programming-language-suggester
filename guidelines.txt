@@ -16,7 +16,7 @@ x Then create a Programming Language Suggester webpage (using HTML, CSS, JavaScr
 
 x Include a minimum of 5 survey questions.
 x Offer a minimum of 3 different language suggestions.
-Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone.
+x Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone.
 Note: You are not required to take every possible combination of answers into account. Feel free to use very simple logic, or even ignore the user's responses for some questions as long as you show some good functionality and offer a minimum of 3 languages. It is also not required to publish your project to GitHub pages, but you may do so if you wish.
 
 Objectives
@@ -35,8 +35,8 @@ Project demonstrates understanding of concepts covered this week. If prompted, y
 Previous Objectives
 For reference, here are last week's objectives:
 
-- Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
-Commits are made regularly with clear messages that finish the phrase "It will…".
+x Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
+x Commits are made regularly with clear messages that finish the phrase "It will…".
 x Project README that includes, bare minimum:
 author name
 program name
@@ -46,7 +46,7 @@ copyright and license information
 Further Exploration
 If you finish the objectives with time to spare, consider adding additional features such as:
 
-Ask the user for their name and address them directly in all of the responses to them: "Enrique, you ought to study Java, so you can learn how to make mobile apps for Android!".
+x Ask the user for their name and address them directly in all of the responses to them: "Enrique, you ought to study Java, so you can learn how to make mobile apps for Android!".
 Make questions multiple choice (like a, b, or c) and determine which track is right for a user by identifying the letter that was most frequently selected. For example: "You chose mostly a's, you should definitely study C#!".
 Use fade in/out or slide in/out jQuery Effects throughout your project.
 Other enhancements such as more custom CSS, animation, or modals as you desire.

@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     var name = $("input#userName").val().concat(", ");
     var q1 = parseInt($("input#question1").val());
-    // try and parse written numbers as ints?
     var q2 = parseInt($("select#question2").val());
     var q3 = parseInt($("select#question3").val());
     var q4 = parseInt($("select#question4").val());
@@ -23,7 +22,6 @@ $(document).ready(function() {
     } else {
       var answer = "... congratulations, you did something real weird and I don't know what. Go learn all the languages at once."
     }
-    //take time to come up with answer
 
     $("#quiz-section").hide();
     $("form#captcha").show();
