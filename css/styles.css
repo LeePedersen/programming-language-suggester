@@ -5,3 +5,15 @@ change font
 #results {
   display: none;
 }
+
+body {
+  font-family: monospace;
+}
+
+#header {
+  font-variant: small-caps;
+  font-size: 50px;
+  text-align: center;
+  background-image: url("img/black.jpg");
+  color: red;
+}

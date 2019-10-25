@@ -7,10 +7,9 @@ $(document).ready(function() {
     var q4 = parseInt($("select#question4").val());
     var q5 = $("input#question5").val();
     var q5 = q5.toLowerCase();
-    alert(q5);
 
     if (!q1 || !q2 || !q3 || !q4 || !q5) {
-      alert("Please answer all questions");
+      var answer = " how to fill out forms properly"
       // make error message for if q1 is not an int
       // make sure results do not show up in this case
     } else if (q2 + q3 + q4 < 6 && q1 < 10) {
@@ -19,6 +18,8 @@ $(document).ready(function() {
       var answer = " c++";
     } else if (q2 + q3 + q4 < 9 && q5.startsWith("y")) {
       var answer = " java";
+    } else if (q2 + q3 + q4 < 9) {
+      var answer = " JavaScript";
     } else if (q2 + q3 + q4 >= 9) {
       var answer = " ruby";
     } else {
@@ -26,6 +27,7 @@ $(document).ready(function() {
       // link to hacking site
     }
     //take time to come up with answer
+    // captcha
     $("#results").show();
     $("#answer").text(answer);
     event.preventDefault();
