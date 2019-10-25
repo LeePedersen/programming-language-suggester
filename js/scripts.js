@@ -1,3 +1,7 @@
+var returnInt = function(wordNumber) {
+
+}
+
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     var q1 = parseInt($("input#question1").val());
@@ -13,18 +17,17 @@ $(document).ready(function() {
       // make error message for if q1 is not an int
       // make sure results do not show up in this case
     } else if (q2 + q3 + q4 < 6 && q1 < 10) {
-      var answer = " python";
+      var answer = " Python";
     } else if (q2 + q3 + q4 < 6) {
-      var answer = " c++";
+      var answer = " C++";
     } else if (q2 + q3 + q4 < 9 && q5.startsWith("y")) {
-      var answer = " java";
+      var answer = " Java";
     } else if (q2 + q3 + q4 < 9) {
       var answer = " JavaScript";
     } else if (q2 + q3 + q4 >= 9) {
-      var answer = " ruby";
+      var answer = " Ruby";
     } else {
       var answer = "... congratulations, you did something real weird and I don't know what. Go learn all the languages at once."
-      // link to hacking site
     }
     //take time to come up with answer
     // captcha
