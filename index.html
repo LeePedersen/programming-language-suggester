@@ -16,16 +16,35 @@
       <label for="question1">What is the length, in centimeters, of your index finger?</label>
       <input id="question1" type="text">
       <label for="question2">What is your favorite kind of chicken?</label>
-      <input id="question2" type="text">
+      <select id="question2">
+        <!-- trying out values as integers, gonna see if it makes other logic easier or harder -->
+        <option value="0"></option>
+        <option value="1">Rhode Island Red</option>
+        <option value="2">Plymouth Rock</option>
+        <option value="3">Ameraucana</option>
+        <option value="4">Australorp</option>
+      </select>
       <label for="question3">When you fly in dreams, how are you doing it?</label>
-      <input id="question3" type="text">
-      <label for="question4">Do you: </label>
-      <!-- eat food in order from least appetizing to most -->
-      <input id="question4" type="text">
-      <label for="question5">For security reasons please enter your</label>
+      <select id="question3">
+        <option value="0"></option>
+        <option value="1">Walking on air</option>
+        <option value="2">Superman-style</option>
+        <option value="3">Flapping really hard</option>
+        <option value="4">Other</option>
+      </select>
+      <label for="question4">Do you eat your food:</label>
+      <select id="question3">
+        <!-- select multiple values -->
+        <option value="0"></option>
+        <option value="1">In order of least appetizing to most appetizing</option>
+        <option value="2">As fast as is humanly possible</option>
+        <option value="3">All mixed together because it's all going the same place</option>
+        <option value="4">Like a boring person</option>
+      </select>
+      <label for="question5">Do you think there's life elsewhere in the universe?</label>
+      <!-- y/n, subtext thing in box? -->
       <input id="question5" type="text">
-
-      <button type="submit" class="btn">Show me the triangle!</button>
+      <button type="submit" class="btn">Submit</button>
     </form>
     <div id="answer">
 
