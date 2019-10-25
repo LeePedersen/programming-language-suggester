@@ -1,13 +1,12 @@
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
-    var name = $("input#userName").val();
+    var name = $("input#userName").val().concat(", ");
     var q1 = parseInt($("input#question1").val());
     // try and parse written numbers as ints?
     var q2 = parseInt($("select#question2").val());
     var q3 = parseInt($("select#question3").val());
     var q4 = parseInt($("select#question4").val());
-    var q5 = $("input#question5").val();
-    var q5 = q5.toLowerCase();
+    var q5 = $("input#question5").val().toLowerCase();
 
     if (!q1 || !q2 || !q3 || !q4 || !q5) {
       var answer = " how to fill out forms properly"
