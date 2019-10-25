@@ -1,7 +1,3 @@
-var returnInt = function(wordNumber) {
-
-}
-
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     var q1 = parseInt($("input#question1").val());
@@ -31,9 +27,15 @@ $(document).ready(function() {
     }
     //take time to come up with answer
     // captcha
+
     $("#quiz-section").hide();
     $("#results").show();
     $("#answer").text(answer);
+    event.preventDefault();
+  });
+  
+  $("form#captcha").submit(function(event) {
+    alert("it fucking worked");
     event.preventDefault();
   });
 });
