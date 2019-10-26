@@ -38,10 +38,18 @@ body {
   height: 500px;
   margin-bottom: 30px;
 }
+
 #captcha-image {
-  width: 90px;
+  width: 88px;
   position: relative;
   top: 100px;
-  left: -131px;
+  left: -132px;
   cursor: default;
+  user-select: none;
+}
+
+#retake {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
 }
